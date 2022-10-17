@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-img">
+        <h1>Calculate the sum of all even numbers in an interval</h1>
+    
+        <div class="user-input">
+            <div class="input-value">
+                <label for="user-first-number">First number:</label>
+                <input type="text" id="user-first-number"><span id="first-number-error"></span>
+            </div>
+            <div class="input-value">
+                <label for="user-second-number">Second number:</label>
+                <input type="text" id="user-second-number"><span id="second-number-error"></span>
+            </div>
+        </div>
+        
+        <div class="operations">
+            <label for="operation">Calculate the sum :</label>
+            <button id="operation" onclick="resultOp()"> Calculate </button>
+        </div>
+        
+        <div class="clear-form">
+            <button id="clear-form" onclick="clearForm()"> Clear form </button>
+        </div>
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

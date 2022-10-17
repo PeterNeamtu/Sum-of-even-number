@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img{
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1625973385769-b9113cf6c2cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.user-input{
+    width: 40rem;
+    background-color: rgb(114, 194, 226);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-value{
+    padding: 0.5rem;
+}
+
+.input-value label{
+    width: 8rem;
+    display: inline-block;
+}
+
+.operations{
+    padding: 1rem;
+}
+
+.clear-form{
+    padding: 1rem;
+}
